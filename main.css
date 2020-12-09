@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #faf8df;
+}
+
+.container {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+  border-top-left-radius: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 25%;
+}
+
+main {
+  text-align: center;
+  height: 50%;
+}
+
+#startTitle {
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size: 5vw;
+  margin: auto;
+}
+
+#startParagraph {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+
+#dateInput {
+  width: 9rem;
+  height: 2rem;
+}
+
+#dateButton {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  color: #95989e;
+  background-color: #f8f4c0;
+  border-color: #f0eba9;
+  border-radius: 15%;
+  height: 2rem;
+  width: 5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+#dateButton:hover,
+#dateButton:focus {
+  background-color: #faf8df;
+  border-color: #faf8df;
+  color: #c2c6ce;
+}
+
+#countdown {
+  display: none;
+}
+
+.countdownContainer {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+footer {
+  height: 25%;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    border-top-left-radius: 50%;
+  }
+}
