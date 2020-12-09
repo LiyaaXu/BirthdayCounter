@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday countdown</title>
+    <meta
+      name="description"
+      content="Write your birthday date and you will know how long you will be waiting for the next birthday!"
+    />
+    <meta
+      name="keywords"
+      content="birthday counter, birthday countdown, birthday timer"
+    />
+    <link rel="stylesheet" href="assets/styles/main.css" type="text/css" />
+    <script src="assets/scripts/start.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <main>
+        <h1 id="startTitle">Birthday countdown clock</h1>
+        <p id="startParagraph">
+          Enter your date of birth and click the start button to see a countdown
+          until your next birthday!
+        </p>
+        <br />
+        <input type="date" class="input" id="dateInput" />
+        <br />
+        <br />
+        <button id="dateButton">Start</button>
+        <div id="countdown">
+          <table class="countdownContainer">
+            <tr class="info">
+              <td colspan="1" class="info">There are only</td>
+            </tr>
+            <tr class="info">
+              <td id="days">120</td>
+            </tr>
+
+            <tr>
+              <td>&nbsp; days to your next birthday! &nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
