@@ -16,7 +16,7 @@ button.addEventListener('click', function () {
   let currentTime = new Date();
   let currentYear = currentTime.getFullYear();
   let currentYearBirthday = new Date(
-    currentYear + '-' + birthdayMonth + '-' + birthdayDay
+    currentYear + '-' + birthdayMonth + '-' + (birthdayDay + 1);
   );
   console.log(currentYearBirthday);
 
